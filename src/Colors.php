@@ -54,5 +54,5 @@ class Colors
 function echo_co($str, $co = null, $back = null)
 {
     $kco = new Colors();
-    $kco->getColoredString($str, $co, $back);
+    echo $kco->getColoredString($str, $co, $back);
 }
