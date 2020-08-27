@@ -56,3 +56,8 @@ function echo_co($str, $co = null, $back = null)
     $kco = new Colors();
     echo $kco->getColoredString($str, $co, $back);
 }
+function co($str, $co = null, $back = null)
+{
+    $kco = new Colors();
+    return $kco->getColoredString($str, $co, $back);
+}
