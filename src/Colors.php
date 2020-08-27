@@ -27,7 +27,6 @@
 			$this->background_colors['magenta'] = '45';
 			$this->background_colors['cyan'] = '46';
             		$this->background_colors['light_gray'] = '47';
-            		$this->$background_color = $this->$foreground_colors;
 		}
 		public function getColoredString($string, $foreground_color = null, $background_color = null) {
 			$colored_string = "";
